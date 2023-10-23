@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.btn-dark {
+    background: #0d0d0d;
+    margin-top: 20px;
+}
+
+.btn-dark:hover {
+    background: #000;
+}
+
+.orange-text {
+    color: orange;
+    font-weight: 700;
+}
+.orange-bg {
+    background: linear-gradient(45deg, rgba(255, 115, 0, 1), rgba(255, 223, 39, 0.998));
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.devider {
+    display: block;
+    width: 100px;
+    height: 5px;
+    margin: 5px auto;
+    border: none;
+    border-radius: 4px;
+}
+
+.navbar.fixed-top {
+    background: #ffffffa6;
+    font-weight: bold;
+    box-shadow: none;
+    transition: 0.8s ease;
+}
+
+.navbar.fixed-top.scrolled {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 90px;
+}
+
+.slider {
+    background: url("images/bg-1.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 150px;
+}
+
+.copyright {
+    color: gray;
+}
